@@ -3,8 +3,6 @@
 ## Project Overview
 This project provides a comprehensive analysis of NYC Taxi trip data. The goal is to assist the operational team and stakeholders in understanding revenue streams, trip patterns, and passenger preferences to improve efficiency.
 
-**Live Dashboard:** [Link to your NovyPro or Portfolio if available]
-
 ## Key Objectives
 1.  **Revenue Analysis:** Identify trends in revenue over years and months.
 2.  **Operational Insights:** Analyze trip duration, distance, and passenger counts.
@@ -24,7 +22,6 @@ This project provides a comprehensive analysis of NYC Taxi trip data. The goal i
 ## 📸 Dashboard Screenshots
 ### 1. Financial View (Revenue & Growth)
 ![Revenue Dashboard](NYC_Taxi/Revenue_page.png)
-*(Make sure to name your image file Revenue_Page.png and put it in a folder named Screenshots)*
 
 ### 2. Operational View (Trips & Volume)
 ![Operations Dashboard](NYC_Taxi/Operation_page.png)
