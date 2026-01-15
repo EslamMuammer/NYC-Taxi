@@ -19,6 +19,13 @@ This project provides a comprehensive analysis of NYC Taxi trip data. The goal i
 * **The EWR Anomaly:** Identified that trips involving Newark Airport (EWR) have high duration avg (27 mins) but very short recorded distance, suggesting high congestion or inter-terminal transit.
 * **Peak Locations:** Manhattan and Brooklyn account for the majority of pickups and revenue.
 
+## Data Modeling
+The raw data originally consisted of **5 separate tables**. To optimize performance and simplify DAX calculations, I transformed the data into a **Star Schema**:
+
+* **Fact Table (`Fact_Trips`):** Consolidated all quantitative metrics (Revenue, Distance, Duration) into one central table.
+* **Dimension Tables:** Created `Dim_Date` (for time intelligence) and `Dim_Zones` (for location details).
+
+![Data Model](NYC_Taxi/Model.png)
 ## 📸 Dashboard Screenshots
 ### 1. Financial View (Revenue & Growth)
 ![Revenue Dashboard](NYC_Taxi/Revenue_page.png)
